@@ -11,8 +11,8 @@ build: ${source}
 install: build
 	mkdir -p "${PREFIX}${DESTDIR}/usr/bin"
 	mkdir -p "${DESTDIR}${PREFIX}/usr/share/doc"
-	install -Dm755 dist/main "${PREFIX}${DESTDIR}/usr/bin/main"
-	install -Dm644 README.rst "${DESTDIR}${PREFIX}/usr/share/doc/main"
+	install -Dm755 dist/main "${PREFIX}${DESTDIR}/usr/bin/bounce"
+	install -Dm644 README.rst "${DESTDIR}${PREFIX}/usr/share/doc/bounce"
 
 clean:
 	$(RM) -rf $(BIN)
