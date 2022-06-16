@@ -8,7 +8,7 @@ Building & Installation
 
 .. code:: bash
   
-  git clone https://github.com/El-Wumbus/bounce
+  git clone https://github.com/El-Wumbus/Bounce
   cd bounce
   make
   sudo make install
