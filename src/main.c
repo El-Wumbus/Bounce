@@ -1,4 +1,4 @@
-/* bounce -- A ``-_-`` bouncing across the screen
+/* bounce -- A ``UwU`` bouncing across the screen
   Copyright (C) 2020 Aidan Neal
 
   This program is free software: you can redistribute it and/or modify
@@ -44,8 +44,8 @@ int main(void)
     /* Clear the screen. */
     clear();
 
-    /* Moving the cursor to the position (y, x) and printing the string "-_-". */
-    mvprintw(y, x, "-_-");
+    /* Moving the cursor to the position (y, x) and printing the string "UwU". */
+    mvprintw(y, x, "UwU");
 
     /* Updating the screen. */
     refresh();
